@@ -1,0 +1,35 @@
+<html>
+<body>
+    <div class="login">
+        <h1>Student Exam Performance Indicator</h1>
+        
+        <!-- The function in app.py to start the prediction can be seen at predict_datapoint -->
+        <form action="{{ url_for('predict_datapoint')}}" method="post">
+            <h1>
+                <legend>Student Exam Performance Prediction</legend>
+            </h1>
+            <div class="mb-3">
+                <label class="form-label">R&D Spend</label>
+                <input class="form-control" type="number" name="r_and_d_spend" placeholder="Enter your R&D Spend" min='0' />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Administration</label>
+                <input class="form-control" type="number" name="administration" placeholder="Enter your Administration" min='0' />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Marketing Spend</label>
+                <input class="form-control" type="number" name="marketing_spend" placeholder="Enter your Marketing Spend" min='0' />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">State</label>
+                <select class="form-control" name="state" placeholder="Select your State" required>
+                    <option class="placeholder" selected disabled value="">Select your State</option>
+                    <!-- Add options for different states based on your data -->
+                </select>
+            </div>
+        <h2>
+            THE prediction is {{results}}
+        </h2>
+    </div>
+</body>
+</html>
