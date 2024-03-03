@@ -63,11 +63,10 @@
 
 **Data trainer**
 
-    1.Open a folder
-    2.Split the data as train and test
-    3.Take the models
-    4.Setting some hyperparameters.
-    5.Perform grid search CV
+    1.Split the data as train and test
+    2.Take the models
+    3.Setting some hyperparameters.
+    4.Perform grid search CV
 
 ## STEP 7
 
