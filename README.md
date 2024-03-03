@@ -1,30 +1,32 @@
-## Profit Prediction Project
+<h1> Profit Prediction Project </h1>
+
+<img src="Profit.png" alt=""/>
 
 <p1> The following project utilizes the linear regression model to predict the quartley profit given the R&D expeneses, Administration costs, Marketing Spend and the given state </p1>
 
-<h1> Framework used </h1>
+# Framework Implemented
 
 <p>
 
-**STEP 1**
+## STEP 1
 
 **Setup.py** - The whole project is based on this file the foundation config for the project Create the logger file Exception file **utils.py** to call in external packages .gitignore requirements.txt containing all the requirements</p>
 
-**STEP 2**
+## STEP 2
 
 **Then create the folder flow**
 
 <p>src - Stages -Data ingestion Data transformation Model trainer pipelines folder Mention **init**.py so that the folder can be packaged and be called in by other files as well </p>
 
-**STEP 3**
+## STEP 3
 
-**EDA **
+**EDA**
 
 <p> example:
 <img src="EDA.png" alt=""/>
 </p>
 
-**STEP 4,5,6**
+## STEP 4,5,6
 
 **Data preprocessing and ingestion**
 
@@ -67,7 +69,7 @@
     4.Setting some hyperparameters.
     5.Perform grid search CV
 
-**STEP 7**
+## STEP 7
 
 **Web application and feeding the data to the model**
 
@@ -79,7 +81,7 @@ app.py - processing the incoming dat incorporation with the pipeline file
 
  </p>
 
-**STEP 8**
+## STEP 8
 
 **Cloud Deployment**
 
